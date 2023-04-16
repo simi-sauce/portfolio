@@ -50,7 +50,10 @@ export default function Cop() {
       overflow: "auto",
       animationName: modalIsOpen ? "slideInLeft" : "slideOutLeft",
       animationDuration: "5s",
-      border: "none",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
     },
   };
 
@@ -94,11 +97,12 @@ export default function Cop() {
     fontSize: isMobileView ? "15px" : "16px",
     marginBottom: "5px",
     fontFamily: "'Roboto', sans-serif !important",
+    textAlign: "center",
   };
 
   const proposalNameStyle = {
     fontFamily: "'Roboto', sans-serif !important",
-    fontSize: isMobileView ? "13px" : "12px",
+    fontSize: isMobileView ? "12px" : "12px",
   };
 
   return (
@@ -112,9 +116,10 @@ export default function Cop() {
       >
         <div style={overlayStyle}>
           <div style={projectNameStyle}>PCA and t-SNE Project</div>
-          <div style={proposalNameStyle}>cars MPG</div>
+          {!isMobileView && <div style={proposalNameStyle}> cars MPG</div>}
         </div>
       </Box>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={handleBoxClick}

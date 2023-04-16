@@ -83,13 +83,13 @@ import member1 from "common/assets/image/interior/team/member1.jpg";
 import member2 from "common/assets/image/interior/team/member2.jpg";
 import member3 from "common/assets/image/interior/team/member3.jpg";
 import member4 from "common/assets/image/interior/team/member4.jpg";
-import member5 from "common/assets/image/interior/team/member5.jpg";
-import member6 from "common/assets/image/interior/team/member6.jpg";
-import member7 from "common/assets/image/interior/team/member7.jpg";
-import member8 from "common/assets/image/interior/team/member8.jpg";
-import member9 from "common/assets/image/interior/team/member9.jpg";
-import member10 from "common/assets/image/interior/team/member10.jpg";
-import member11 from "common/assets/image/interior/team/member11.jpg";
+// import member5 from "common/assets/image/interior/team/member5.jpg";
+// import member6 from "common/assets/image/interior/team/member6.jpg";
+// import member7 from "common/assets/image/interior/team/member7.jpg";
+// import member8 from "common/assets/image/interior/team/member8.jpg";
+// import member9 from "common/assets/image/interior/team/member9.jpg";
+// import member10 from "common/assets/image/interior/team/member10.jpg";
+// import member11 from "common/assets/image/interior/team/member11.jpg";
 /* ------------------------------------ */
 // Team section data
 /* ------------------------------------ */
@@ -333,237 +333,237 @@ export const teamData = {
         },
       ],
     },
-    {
-      id: 5,
-      avatar: member5,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
-    {
-      id: 6,
-      avatar: member6,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
-    {
-      id: 7,
-      avatar: member7,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
-    {
-      id: 7,
-      avatar: member8,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
-    {
-      id: 7,
-      avatar: member9,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
-    {
-      id: 7,
-      avatar: member10,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
-    {
-      id: 7,
-      avatar: member11,
-      name: "Naina Cooper",
-      designation: "Marketing Manager",
-      social_links: [
-        {
-          id: 1,
-          icon: <Icon icon={socialFacebook} />,
-          url: "#1",
-        },
-        {
-          id: 2,
-          icon: <Icon icon={socialDribbble} />,
-          url: "#1",
-        },
-        {
-          id: 3,
-          icon: <Icon icon={socialGoogleplus} />,
-          url: "#1",
-        },
-        {
-          id: 4,
-          icon: <Icon icon={socialSkype} />,
-          url: "#1",
-        },
-        {
-          id: 5,
-          icon: <Icon icon={socialTwitter} />,
-          url: "#1",
-        },
-      ],
-    },
+    // {
+    //   id: 5,
+    //   avatar: member5,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 6,
+    //   avatar: member6,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 7,
+    //   avatar: member7,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 7,
+    //   avatar: member8,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 7,
+    //   avatar: member9,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 7,
+    //   avatar: member10,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 7,
+    //   avatar: member11,
+    //   name: "Naina Cooper",
+    //   designation: "Marketing Manager",
+    //   social_links: [
+    //     {
+    //       id: 1,
+    //       icon: <Icon icon={socialFacebook} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 2,
+    //       icon: <Icon icon={socialDribbble} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 3,
+    //       icon: <Icon icon={socialGoogleplus} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 4,
+    //       icon: <Icon icon={socialSkype} />,
+    //       url: "#1",
+    //     },
+    //     {
+    //       id: 5,
+    //       icon: <Icon icon={socialTwitter} />,
+    //       url: "#1",
+    //     },
+    //   ],
+    // },
   ],
 };
 

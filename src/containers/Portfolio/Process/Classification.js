@@ -50,6 +50,10 @@ export default function Cop() {
       overflow: "auto",
       animationName: modalIsOpen ? "slideInLeft" : "slideOutLeft",
       animationDuration: "5s",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
     },
   };
 
@@ -93,6 +97,7 @@ export default function Cop() {
     fontSize: isMobileView ? "15px" : "16px",
     marginBottom: "5px",
     fontFamily: "'Roboto', sans-serif !important",
+    textAlign: "center",
   };
 
   const proposalNameStyle = {
@@ -114,11 +119,15 @@ export default function Cop() {
       >
         <div style={overlayStyle}>
           <div style={projectNameStyle}>Classification Project</div>
-          <div style={proposalNameStyle}>
-            Hotel Booking Cancellation Prediction
-          </div>
+          {!isMobileView && (
+            <div style={proposalNameStyle}>
+              {" "}
+              Hotel Booking Cancellation Prediction
+            </div>
+          )}
         </div>
       </Box>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={handleBoxClick}

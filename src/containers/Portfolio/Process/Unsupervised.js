@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import Box from "common/components/Box";
 import Text from "common/components/Text";
 
-export default function Unsupervised() {
+export default function Cop() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [isMobileView, setIsMobileView] = useState(false);
+  const [mobileScreenHeight, setMobileScreenHeight] = useState(null);
+  const [mobileScreenWidth, setMobileScreenWidth] = useState(null);
 
   const handleBoxClick = () => {
     setModalIsOpen(!modalIsOpen);
@@ -19,10 +22,21 @@ export default function Unsupervised() {
     setIsHovered(false);
   };
 
+  useEffect(() => {
+    const handleWindowSizeChange = () => {
+      setIsMobileView(window.innerWidth < 768);
+      setMobileScreenHeight(window.innerHeight);
+      setMobileScreenWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleWindowSizeChange);
+    handleWindowSizeChange();
+    return () => window.removeEventListener("resize", handleWindowSizeChange);
+  }, []);
+
   const customStyles = {
     overlay: {
       zIndex: 100,
-      backgroundColor: "rgba(0, 0, 0, 0.6)",
+      backgroundColor: "#002147 !important",
     },
     content: {
       top: "50%",
@@ -31,11 +45,15 @@ export default function Unsupervised() {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      width: "70%",
-      height: "90%",
+      width: isMobileView ? `${mobileScreenWidth}px` : "70%",
+      height: isMobileView ? `${mobileScreenHeight}px` : "90%",
       overflow: "auto",
       animationName: modalIsOpen ? "slideInLeft" : "slideOutLeft",
       animationDuration: "5s",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
     },
   };
 
@@ -76,14 +94,15 @@ export default function Unsupervised() {
   };
 
   const projectNameStyle = {
-    fontSize: "16px",
-    fontFamily: "'Roboto', sans-serif !important",
+    fontSize: isMobileView ? "15px" : "16px",
     marginBottom: "5px",
+    fontFamily: "'Roboto', sans-serif !important",
+    textAlign: "center",
   };
 
   const proposalNameStyle = {
-    fontSize: "12px",
     fontFamily: "'Roboto', sans-serif !important",
+    fontSize: isMobileView ? "12px" : "12px",
   };
 
   return (
@@ -97,11 +116,15 @@ export default function Unsupervised() {
       >
         <div style={overlayStyle}>
           <div style={projectNameStyle}>Unsupervised Learning Project</div>
-          <div style={proposalNameStyle}>
-            AllLife Bank Customer Segmentation
-          </div>
+          {!isMobileView && (
+            <div style={proposalNameStyle}>
+              {" "}
+              AllLife Bank Customer Segmentation
+            </div>
+          )}
         </div>
       </Box>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={handleBoxClick}

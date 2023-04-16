@@ -49,7 +49,7 @@ const Footer = ({
               </a>
             </Link>
           </Box>
-          <Box className="foter" {...col}>
+          <Box  {...col}>
             <Heading as="h3" content="A treat for your inbox" {...titleStyle} />
             <Newsletter>
               <Input
@@ -65,7 +65,7 @@ const Footer = ({
           </Box>
         </Box>
 
-        <Box className="foter" {...row}>
+        <Box  {...row}>
           <Box {...col}>
             <SocialProfile
               className="footer_social"
@@ -78,7 +78,7 @@ const Footer = ({
               {...copyrightStyle}
             />
           </Box>
-          <Box className="foter" {...col} {...flexBox}>
+          <Box  {...col} {...flexBox}>
             <Box {...contactItem}>
               <Text content="Quick mail?" {...contactTitle} />
               <Text content="ndfyne22@gmail.com" {...contactInfo} />

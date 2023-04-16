@@ -23,6 +23,24 @@ const Container = styled.div`
 
   @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr;
+
+    > * {
+      width: calc(100% - 20px);
+      margin: 0 10px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    grid-template-columns: repeat(2, calc(33.33% - 33.33px + 50px));
+    margin-left: 0;
+
+    > * {
+      margin: 0 16px 16px 0;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
   }
 `;
 

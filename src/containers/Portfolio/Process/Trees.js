@@ -50,6 +50,10 @@ export default function Cop() {
       overflow: "auto",
       animationName: modalIsOpen ? "slideInLeft" : "slideOutLeft",
       animationDuration: "5s",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
     },
   };
 
@@ -90,9 +94,10 @@ export default function Cop() {
   };
 
   const projectNameStyle = {
-    fontSize: isMobileView ? "14px" : "16px",
+    fontSize: isMobileView ? "15px" : "16px",
     marginBottom: "5px",
     fontFamily: "'Roboto', sans-serif !important",
+    textAlign: "center",
   };
 
   const proposalNameStyle = {
@@ -113,7 +118,9 @@ export default function Cop() {
           <div style={projectNameStyle}>
             Decision Trees and Random Forest Project
           </div>
-          <div style={proposalNameStyle}>Predicting Potential Customers</div>
+          {!isMobileView && (
+            <div style={proposalNameStyle}>Predicting Potential Customers</div>
+          )}
         </div>
       </Box>
 

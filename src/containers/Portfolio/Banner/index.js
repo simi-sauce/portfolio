@@ -43,9 +43,7 @@ const BannerSection = ({
             </Box>
             <Text
               className="containa"
-              content="I am a Business/Data Analyst who is passionate about the use of data to solve business 
-              problems. Currently I’m leveraging on my maths and statistical background to fully 
-              develop into a world class Machine Learning Engineer."
+              content="Hi my name is Fyneface Ndubuisi, I work as a Data Analyst and Project Manager at Docsword Oil and Gas Ltd.As a data analyst and data scientist   (with great enthusiasm for cloud migration and deployments), I translate data into valuable and comprehensible insights. My goal is to improve results, make the right decisions and save costs for you. I am experienced in machine learning, supervised and unsupervised algorithms, and data visualization techniques to present the results. I use SQL, Excel, Python,  and Tableau for my data projects. I also have personal experience in using AWS cloud services for deploying static websites, cloud storage, security and migration. "
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />

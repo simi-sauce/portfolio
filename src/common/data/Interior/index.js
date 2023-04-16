@@ -198,8 +198,8 @@ export const projectData = {
 };
 
 export const teamData = {
-  title: "PROJECTS DUMP",
-  slogan: "Images from some of my works",
+  title: "CERTIFICATES",
+  slogan: "Here are some of my certificates",
   members: [
     {
       id: 1,

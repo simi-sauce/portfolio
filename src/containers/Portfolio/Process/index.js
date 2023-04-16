@@ -99,13 +99,13 @@ const ProcessSection = ({
                   className="portfolio_button"
                   {...buttonStyle}
                 /> */}
-                <Link href="./cv.pdf" download>
+                {/* <Link href="./cv.pdf" download>
                   <Button
                     title="Download CV"
                     className="portfolio_button"
                     {...buttonStyle}
                   />
-                </Link>
+                </Link> */}
               </ButtonWrapper>
             </Box>
           </Box>

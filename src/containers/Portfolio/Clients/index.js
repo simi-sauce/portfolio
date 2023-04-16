@@ -45,6 +45,9 @@ const ClientsSection = ({
               title="Let's Talk"
               className="portfolio_button"
               {...buttonStyle}
+              onClick={() =>
+                (window.location.href = "mailto:ndfyne22@gmail.com")
+              }
             />
           </ButtonWrapper>
         </Box>

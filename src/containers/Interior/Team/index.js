@@ -23,7 +23,7 @@ const Team = () => {
 
   const glideOptions = {
     type: "carousel",
-    perView: 3,
+    perView: 4,
     gap: 50,
     breakpoints: {
       1200: {
@@ -46,7 +46,7 @@ const Team = () => {
 
   return (
     <SectionWrapper className="com" id="team">
-      <Container className="com" width="1360px">
+      <Container className="com" width="1300px">
         <Fade bottom>
           <SectionHeader>
             <Heading as="h5" content={title} />
@@ -69,12 +69,6 @@ const Team = () => {
                         <ImageWrapper className="image_wrapper">
                           <NextImage src={member.avatar} alt={member.name} />
                         </ImageWrapper>
-                        {/* <TextWrapper className="text_wrapper">
-                          <div className="name_plate">
-                            <Heading as="h3" content={member.name} />
-                            <Text content={member.designation} />
-                          </div>
-                        </TextWrapper> */}
                       </TeamCard>
                     </GlideSlide>
                   ))}

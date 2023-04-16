@@ -21,8 +21,9 @@ import TestimonialSection from "containers/Portfolio/Testimonial";
 import ClientsSection from "containers/Portfolio/Clients";
 import ContactSection from "containers/Portfolio/Contact";
 import Footer from "containers/Portfolio/Footer";
-
 import Team from "containers/Interior/Team";
+
+// import NineBoxes from "containers/Portfolio/Process/create";
 
 const Portfolio = () => {
   return (
@@ -57,7 +58,6 @@ const Portfolio = () => {
           <TestimonialSection />
           <ClientsSection />
           <Team />
-          {/* <ContactSection /> */}
           <Footer />
         </ContentWrapper>
       </Fragment>

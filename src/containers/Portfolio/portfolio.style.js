@@ -2,6 +2,10 @@ import styled, { createGlobalStyle } from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 import Line from "common/assets/image/portfolio/dotted-line.png";
 
+import Image from "next/image";
+
+<Image src="/class.png" alt="Class" width={300} height={200} />;
+
 export const GlobalStyle = createGlobalStyle`
   body{
     font-family: 'Roboto', sans-serif;
@@ -45,18 +49,75 @@ export const GlobalStyle = createGlobalStyle`
     padding:2rem;
    }
 
-
-
-
-
   .trial {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top:50px;
   }
+
+  .ReactModal__Content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+  }
+
+  .foter{
+    padding-bottom:0px;
+    margin-bottom:0px;
+  }
+
+
+
+  .class {
+    background-image: url("/class.png");
+  }
   
+  .classi {
+    background-image: url("/classi.png");
+  }
   
+  .classic {
+    background-image: url("/classic.png");
+  }
+
+  .classicp {
+    background-image: url("/classicp.png");
+  }
+  
+  .classicpp {
+    background-image: url("/classicpp.png");
+  }
+  
+  .classicppp {
+    background-image: url("/classicppp.png");
+  }
+
+  .classicpppp {
+    background-image: url("/classicpppp.png");
+  }
+
+  .classicppppp {
+    background-image: url("/classicppppp.png");
+  }
+
+  .CN {
+    background-image: url("/CN.png");
+  }
+
+  .ok{
+  width: calc(80% - 50px);
+  height: 200px;
+  background-color: blue;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  }
+  
+
 
 
 

@@ -25,7 +25,7 @@ const CallToAction = ({
           <Box {...textArea}>
             <Heading content="What’s in the lab?" {...title} />
             <Text
-              content="Get a glimpse of my Applied Data Science expertise. Download my MIT certificate to see my proficiency in statistical inference, data wrangling, machine learning, and data visualization."
+              content="Take a look at my Resume to see how my Applied Data Science skills can benefit you. Explore my expertise in statistical inference, data wrangling, machine learning, and data visualization, as a skilled data analyst, cloud engineer, and machine learning expert."
               {...description}
             />
           </Box>
@@ -36,9 +36,9 @@ const CallToAction = ({
                 className="portfolio_button"
                 {...buttonStyle}
               /> */}
-              <Link href="./MIT.pdf" download>
+              <Link href="./cv.pdf" download>
                 <Button
-                  title="MIT CERTIFICATE"
+                  title="DOWNLOAD RESUME"
                   className="portfolio_button"
                   {...buttonStyle}
                 />

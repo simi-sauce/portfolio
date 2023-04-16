@@ -47,23 +47,11 @@ import Reviewer3 from "../../assets/image/portfolio/client-avatar-3.jpg";
 export const SOCIAL_PROFILES = [
   {
     icon: socialTwitter,
-    url: "#",
-  },
-  {
-    icon: socialFacebook,
-    url: "#",
-  },
-  {
-    icon: socialWhatsappOutline,
-    url: "#",
-  },
-  {
-    icon: socialGithub,
-    url: "#",
+    url: "https://twitter.com/danyyeyo?t=443OMFnInXX5jhzq2P5kTQ&s=09",
   },
   {
     icon: linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/in/ndubuisi-fyneface",
   },
 ];
 
@@ -102,15 +90,7 @@ export const AWARDS = [
     awardeeLogo: Awardee1,
     awardeeName: "Cloud",
     date: "Dec 2022",
-    link: "./AWS Certified Cloud Practitioner certificate.pdf",
-  },
-  {
-    awardLogo: AwardImage2,
-    awardName: "Tableau Desktop Specialist",
-    awardDetails: "Data Analyst",
-    awardeeLogo: Awardee2,
-    awardeeName: "Data analytics",
-    date: "Nov 2022",
+    link: "./AWS Certified Cloud Practitioner certificate.pdf#toolbar=0",
   },
   {
     awardLogo: AwardImage3,
@@ -119,7 +99,7 @@ export const AWARDS = [
     awardeeLogo: Awardee3,
     awardeeName: "Profesional Analyst",
     date: "August 2022",
-    link: "./datacamp cert.pdf",
+    link: "./datacamp cert.pdf#toolbar=0",
   },
   {
     awardLogo: AwardImage4,
@@ -128,7 +108,16 @@ export const AWARDS = [
     awardeeLogo: Awardee4,
     awardeeName: "(MIT) Professional ",
     date: "July 2022",
-    link: "./MIT.pdf",
+    link: "./MIT.pdf#toolbar=0",
+  },
+  {
+    awardLogo: AwardImage6,
+    awardName: "Ultimate MySQL Bootcamp",
+    awardDetails: "MYSQL",
+    awardeeLogo: Awardee4,
+    awardeeName: "UDEMY",
+    date: "OCT 2020",
+    link: "./mysql.pdf#toolbar=0",
   },
   {
     awardLogo: AwardImage5,
@@ -139,13 +128,12 @@ export const AWARDS = [
     date: "July 2021",
   },
   {
-    awardLogo: AwardImage6,
-    awardName: "Ultimate MySQL Bootcamp",
-    awardDetails: "MYSQL",
-    awardeeLogo: Awardee4,
-    awardeeName: "UDEMY",
-    date: "OCT 2020",
-    link: "./mysql.pdf",
+    awardLogo: AwardImage2,
+    awardName: "Tableau Desktop Specialist",
+    awardDetails: "Data Analyst",
+    awardeeLogo: Awardee2,
+    awardeeName: "Data analytics",
+    date: "Nov 2022",
   },
 ];
 
@@ -438,7 +426,7 @@ export const SERVICE_LIST = [
       {
         content: "Mongo DB",
       },
-      
+
       {
         content: "Tableau",
       },

@@ -86,11 +86,6 @@ const TestimonialSection = ({
                           alt={`testimonial-avatar-${index + 1}`}
                         />
                       </TestimonialThumb>
-                      {/* <Link href={item.twitterProfile || '#'}>
-                        <a aria-label="twitter">
-                          <Icon icon={twitter} size={24} />
-                        </a>
-                      </Link> */}
                     </TestimonialHead>
                     <Text {...reviewStyle} content={item.review} />
                     <Heading as="h3" content={item.name} {...nameStyle} />

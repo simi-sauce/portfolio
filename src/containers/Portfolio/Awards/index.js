@@ -8,12 +8,10 @@ import Container from "common/components/UI/Container";
 import GlideCarousel from "common/components/GlideCarousel";
 import GlideSlide from "common/components/GlideCarousel/glideSlide";
 
-import Link from "next/link";
-import Button from "common/components/Button";
-import { buttonStyle } from "../../Portfolio/portfolio.style";
+
+
 
 import { AWARDS } from "common/data/Portfolio/data";
-import { awar } from "common/data/Portfolio/data";
 
 import { PrevButton, NextButton } from "../portfolio.style";
 import {
@@ -24,10 +22,6 @@ import {
   AwardeeDetails,
   AwardImageWrapper,
 } from "./awards.style";
-
-// const awar = {
-//   ink: "./MIT.pdf",
-// };
 
 const AwardsSection = ({
   secTitleWrapper,
@@ -60,6 +54,21 @@ const AwardsSection = ({
     },
   };
 
+
+
+  const checkItOutLinkStyle = {
+    backgroundColor: "#007bff",
+    color: "white", // Change to white to make the text more visible
+    padding: "8px 16px",
+    borderRadius: "10px",
+    cursor: "pointer",
+    fontSize: "20px",
+    marginTop: "20px", // Increase the margin top to make the button more spaced out
+    textDecoration: "none", // Remove underline from the link
+  };
+
+
+
   return (
     <AwardSectionWrapper className="contai" id="awards_section">
       <Container noGutter mobileGutter width="1200px">
@@ -90,6 +99,7 @@ const AwardsSection = ({
             </NextButton>
           }
         >
+        
           <>
             {AWARDS.map((award, index) => (
               <GlideSlide key={`award-item-${index}`}>
@@ -101,40 +111,38 @@ const AwardsSection = ({
                       {...awardLogoStyle}
                     />
                   </AwardImageWrapper>
-                  <Heading content={award.awardName}  {...awardNameStyle} />
+                  <Heading content={award.awardName} {...awardNameStyle} />
                   <Text content={award.awardDetails} {...awardDetailsStyle} />
-                  <AwardeeWrapper>
-                    {/* <AwardeeLogo>
-                      <NextImage
-                        src={award.awardeeLogo}
-                        alt={`awardee-logo-${index}`}
-                        {...awardeeLogoStyle}
-                      />
-                    </AwardeeLogo> */}
-                    <AwardeeDetails>
-                      <Heading
-                        content={award.awardeeName}
-                        {...awardeeNameStyle}
-                      />
-                      <Text content={award.date} {...awardDateStyle} />
-                      <a href={award.link} download>Check it out!
-                      {/* <Button
-                    title="Download CV"
-                    className="portfolio_button"
-                    {...buttonStyle}
-                     /> */}
-                      </a>
-                    </AwardeeDetails>
-                  </AwardeeWrapper>
+                  {award.link && (
+                    <AwardeeWrapper>
+                      <AwardeeDetails>
+                        <Heading
+                          content={award.awardeeName}
+                          {...awardeeNameStyle}
+                        />
+                        <Text content={award.date} {...awardDateStyle} />
+                        {/* <a
+                          href={award.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          {...checkItOutLinkStyle}
+                        >
+                          Check it out!
+                        </a> */}
+                      </AwardeeDetails>
+                    </AwardeeWrapper>
+                  )}
                 </AwardItem>
               </GlideSlide>
             ))}
           </>
+         
         </GlideCarousel>
       </Container>
     </AwardSectionWrapper>
   );
 };
+
 
 AwardsSection.propTypes = {
   secTitleWrapper: PropTypes.object,

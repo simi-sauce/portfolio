@@ -73,39 +73,39 @@ export const GlobalStyle = createGlobalStyle`
 
 
   .class {
-    background-image: url("/class.png");
+    background-image: url("/class.png")  !important;
   }
   
   .classi {
-    background-image: url("/classi.png");
+    background-image: url("/classi.png")  !important;
   }
   
   .classic {
-    background-image: url("/classic.png");
+    background-image: url("/classic.png")  !important;
   }
 
   .classicp {
-    background-image: url("/classicp.png");
+    background-image: url("/classicp.png")  !important;
   }
   
   .classicpp {
-    background-image: url("/classicpp.png");
+    background-image: url("/classicpp.png")  !important;
   }
   
   .classicppp {
-    background-image: url("/classicppp.png");
+    background-image: url("/classicppp.png")  !important;
   }
 
   .classicpppp {
-    background-image: url("/classicpppp.png");
+    background-image: url("/classicpppp.png")  !important;
   }
 
   .classicppppp {
-    background-image: url("/classicppppp.png");
+    background-image: url("/classicppppp.png")  !important;
   }
 
   .CN {
-    background-image: url("/CN.png");
+    background-image: url("/CN.png") !important;
   }
 
   .ok{

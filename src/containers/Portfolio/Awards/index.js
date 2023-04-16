@@ -116,11 +116,10 @@ const AwardsSection = ({
                   {award.link && (
                     <AwardeeWrapper>
                       <AwardeeDetails>
-                        <Heading
+                        {/* <Heading
                           content={award.awardeeName}
                           {...awardeeNameStyle}
-                        />
-                        <Text content={award.date} {...awardDateStyle} />
+                        /> */}
                         {/* <a
                           href={award.link}
                           target="_blank"

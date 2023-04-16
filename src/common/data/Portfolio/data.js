@@ -16,6 +16,7 @@ import AwardImage3 from "../../assets/image/portfolio/award-3.png";
 import AwardImage4 from "../../assets/image/portfolio/award-4.png";
 import AwardImage5 from "../../assets/image/portfolio/award-5.png";
 import AwardImage6 from "../../assets/image/portfolio/award-6.png";
+import AwardImage7 from "../../assets/image/portfolio/award-7.png";
 
 import PortfolioImage1 from "../../assets/image/portfolio/portfolio-1.jpg";
 import PortfolioImage2 from "../../assets/image/portfolio/portfolio-2.jpg";
@@ -126,6 +127,14 @@ export const AWARDS = [
     awardeeLogo: Awardee4,
     awardeeName: "UNIVERSITY OF LAGOS",
     date: "July 2021",
+  },
+  {
+    awardLogo: AwardImage7,
+    awardName: "AWS Certified Solution Architect",
+    awardDetails: "ASSOCIATE",
+    awardeeLogo: Awardee4,
+    awardeeName: "UNIVERSITY OF LAGOS",
+    date: "APR 2023",
   },
   {
     awardLogo: AwardImage2,

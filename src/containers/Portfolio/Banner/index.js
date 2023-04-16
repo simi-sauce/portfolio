@@ -34,12 +34,12 @@ const BannerSection = ({
             <Heading content="Nwogu" {...nameStyle} />
             <Heading content="Data Analyst" {...designationStyle} />
             <Box {...roleWrapper}>
-              <Icon
+              {/* <Icon
                 icon={cornerDownRight}
                 style={{ color: "#3444f1" }}
                 size={22}
-              />
-              <Heading content="Intern at Reesby IT Australia" {...roleStyle} />
+              /> */}
+              {/* <Heading content="Intern at Reesby IT Australia" {...roleStyle} /> */}
             </Box>
             <Text
               className="containa"

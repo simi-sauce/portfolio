@@ -57,7 +57,7 @@ const Portfolio = () => {
           <CallToAction />
           <TestimonialSection />
           <ClientsSection />
-          <Team />
+          {/* <Team /> */}
           <Footer />
         </ContentWrapper>
       </Fragment>

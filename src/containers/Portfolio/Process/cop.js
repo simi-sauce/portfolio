@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
 import Box from "common/components/Box";
@@ -107,23 +108,23 @@ export default function Cop() {
   return (
     <>
       <Box
-        className="CN"
-        onClick={handleBoxClick}
-        onMouseEnter={handleBoxHover}
-        onMouseLeave={handleBoxLeave}
-        style={{ position: "relative" }}
-      >
-        <div style={overlayStyle}>
-          <div style={projectNameStyle}>
-            Convolutional Neural Networks Project
-          </div>
-          {!isMobileView && (
-            <div style={proposalNameStyle}>
-              Street View Housing Number Digit Recognition
-            </div>
-          )}
+    className="CN"
+    onClick={handleBoxClick}
+    onMouseEnter={handleBoxHover}
+    onMouseLeave={handleBoxLeave}
+    style={{ position: "relative" }}
+  >
+    <div style={overlayStyle}>
+      <div style={projectNameStyle}>
+        Convolutional Neural Networks Project
+      </div>
+      {!isMobileView && (
+        <div style={proposalNameStyle}>
+          Street View Housing Number Digit Recognition
         </div>
-      </Box>
+      )}
+    </div>
+  </Box>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={handleBoxClick}

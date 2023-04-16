@@ -107,7 +107,7 @@ export default function Cop() {
         onClick={handleBoxClick}
         onMouseEnter={handleBoxHover}
         onMouseLeave={handleBoxLeave}
-        style={{ position: "relative" }}
+        style={{ position: "relative", backgroundImage: "url('/class.png')" }}
       >
         <div style={overlayStyle}>
           <div style={projectNameStyle}>

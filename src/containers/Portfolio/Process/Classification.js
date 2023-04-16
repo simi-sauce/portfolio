@@ -103,11 +103,14 @@ export default function Cop() {
   return (
     <>
       <Box
-        className="classi"
+        className="class"
         onClick={handleBoxClick}
         onMouseEnter={handleBoxHover}
         onMouseLeave={handleBoxLeave}
-        style={{ position: "relative" }}
+        style={{
+          position: "relative",
+          backgroundImage: "url('/classi.png') !important",
+        }}
       >
         <div style={overlayStyle}>
           <div style={projectNameStyle}>Classification Project</div>

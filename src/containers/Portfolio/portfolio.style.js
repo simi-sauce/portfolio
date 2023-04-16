@@ -67,18 +67,19 @@ export const GlobalStyle = createGlobalStyle`
 
   .foter{
     padding-bottom:0px;
-    margin-bottom:0px;
+    margin-bottom:5px;
   }
 
 
 
-  .class {
-    background-image: url("/class.png")  !important;
-  }
+
+  // .class {
+  //   background-image: url("/class.png")  !important;
+  // }
   
-  .classi {
-    background-image: url("/classi.png")  !important;
-  }
+  // .classi {
+  //   background-image: url("/classi.png")  !important;
+  // }
   
   .classic {
     background-image: url("/classic.png")  !important;

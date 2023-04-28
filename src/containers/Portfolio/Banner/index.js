@@ -30,8 +30,8 @@ const BannerSection = ({
         <Box {...row}>
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
+            <Heading content="Fyneface" {...nameStyle} />
             <Heading content="Ndubuisi" {...nameStyle} />
-            <Heading content="Nwogu" {...nameStyle} />
             <Heading content="Data Analyst" {...designationStyle} />
             <Box {...roleWrapper}>
               {/* <Icon

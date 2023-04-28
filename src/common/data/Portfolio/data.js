@@ -430,7 +430,7 @@ export const SERVICE_LIST = [
     title: "  Data Tools",
     listItems: [
       {
-        content: "Phyton",
+        content: "Python",
       },
       {
         content: "Mongo DB",
@@ -455,7 +455,7 @@ export const SERVICE_LIST = [
         content: "Seaborn",
       },
       {
-        content: "Sci kit-learn",
+        content: "Scikit-learn",
       },
       {
         content: "matplotlib",

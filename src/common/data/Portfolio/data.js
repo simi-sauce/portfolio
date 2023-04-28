@@ -427,7 +427,7 @@ export const PROCESS_STEPS = [
 
 export const SERVICE_LIST = [
   {
-    title: "  Data Analyst",
+    title: "  Data Tools",
     listItems: [
       {
         content: "Phyton",
@@ -443,7 +443,7 @@ export const SERVICE_LIST = [
         content: "Excel",
       },
       {
-        content: "Excel, A/B test",
+        content: "A/B test",
       },
       {
         content: "Numpy",
@@ -454,22 +454,28 @@ export const SERVICE_LIST = [
       {
         content: "Seaborn",
       },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    listItems: [
       {
-        content: "Tensorflow",
+        content: "Sci kit-learn",
       },
       {
-        content: "Suprise",
-      },
-      {
-        content: "OOP",
+        content: "matplotlib",
       },
     ],
   },
+  // {
+  //   title: "Machine Learning",
+  //   listItems: [
+  //     {
+  //       content: "Tensorflow",
+  //     },
+  //     {
+  //       content: "Suprise",
+  //     },
+  //     {
+  //       content: "OOP",
+  //     },
+  //   ],
+  // },
   {
     title: "Cloud Computing",
     listItems: [

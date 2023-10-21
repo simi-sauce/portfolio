@@ -117,9 +117,7 @@ export const GlobalStyle = createGlobalStyle`
     background-image: url("/classic.png")  !important;
   }
 
-  .fyne{
-    fontSize:100px;
-  }
+ 
 
   .classicp {
     background-image: url("/classicp.png")  !important;

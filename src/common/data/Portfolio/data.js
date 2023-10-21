@@ -48,6 +48,8 @@ import Reviewer3 from "../../assets/image/portfolio/client-avatar-3.jpg";
 import Reviewer4 from "../../assets/image/portfolio/client-avatar-4.png";
 import Reviewer5 from "../../assets/image/portfolio/client-avatar-5.png";
 import Reviewer6 from "../../assets/image/portfolio/client-avatar-6.png";
+import Reviewer7 from "../../assets/image/portfolio/client-avatar-7.png";
+import Reviewer8 from "../../assets/image/portfolio/client-avatar-8.png";
 
 export const SOCIAL_PROFILES = [
   {
@@ -539,20 +541,20 @@ export const SERVICE_LIST = [
       },
     ],
   },
-  {
-    title: "Cloud Computing",
-    listItems: [
-      {
-        content: "Cloud Architecture",
-      },
-      {
-        content: "Cloud Security",
-      },
-      {
-        content: "Cloud Infrastructure Management",
-      },
-    ],
-  },
+  // {
+  //   title: "Cloud Computing",
+  //   listItems: [
+  //     {
+  //       content: "Cloud Architecture",
+  //     },
+  //     {
+  //       content: "Cloud Security",
+  //     },
+  //     {
+  //       content: "Cloud Infrastructure Management",
+  //     },
+  //   ],
+  // },
   {
     title: "Hobbies",
     listItems: [
@@ -655,6 +657,15 @@ export const TESTIMONIAL = [
     // organization: "@Tonquin",
     organizationURL: "https://redq.io/",
   },
+  {
+    image: Reviewer8,
+    review: "Data Analyst",
+    name: "Stericycle",
+    // designation: "Co-Founder & COO",
+    twitterProfile: "https://twitter.com/redqinc",
+    // organization: "@Tonquin",
+    organizationURL: "https://redq.io/",
+  },
   // {
   //   image: Reviewer4,
   //   review: "Data Analyst",
@@ -682,6 +693,16 @@ export const TESTIMONIAL = [
     // organization: "@Tonquin",
     organizationURL: "https://redq.io/",
   },
+  {
+    image: Reviewer7,
+    review: "Data Analyst",
+    name: "Canadian Premier",
+    // designation: "Co-Founder & COO",
+    twitterProfile: "https://twitter.com/redqinc",
+    // organization: "@Tonquin",
+    organizationURL: "https://redq.io/",
+  },
+
 ];
 
 export const FOOTER_MENU = [

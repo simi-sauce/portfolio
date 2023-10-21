@@ -42,9 +42,9 @@ const SkillSection = ({
             content="Ways I can help you"
           />
           <Text
-            className="conta"
+            className="contax"
             {...secDescription}
-            content="Let me help you turn your data into actionable insights through data cleaning, analysis, visualization, and reporting. here are some of my core strenght"
+            content="Let me help you turn your data into actionable insights through data cleaning, analysis, visualization, and reporting. Here are some of my core strenght"
           />
           <Text
             className="contax"

@@ -54,7 +54,7 @@ const PortfolioShowcase = ({
           <Heading {...secTitle} content="My Projects" />
           <Text
             {...secDescription}
-            content="Here, I included some of my most notable work, which showcased my skills and expertise in cloud computing, data analysis, and software development. Each project highlighted my role, scope of work, and achievements, demonstrating my creativity and problem-solving abilities. I'm excited to share my work with you and can't wait to collaborate on future projects.
+            content="Here, I included some of my most notable work, which showcased my skills and expertise in Excel, SQL, data extraction, data analysis, data visualization,  machine learning, cloud computing and many more. Each project highlighted my role, scope of work, and achievements, demonstrating my creativity and problem-solving abilities. I'm excited to share my work with you and can't wait to collaborate on future projects while gaining more experience.
             "
           />
         </Box>

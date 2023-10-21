@@ -17,6 +17,7 @@ import AwardImage4 from "../../assets/image/portfolio/award-4.png";
 import AwardImage5 from "../../assets/image/portfolio/award-5.png";
 import AwardImage6 from "../../assets/image/portfolio/award-6.png";
 import AwardImage7 from "../../assets/image/portfolio/award-7.png";
+import AwardImage8 from "../../assets/image/portfolio/award-8.png";
 
 import PortfolioImage1 from "../../assets/image/portfolio/portfolio-1.jpg";
 import PortfolioImage2 from "../../assets/image/portfolio/portfolio-2.jpg";
@@ -44,6 +45,9 @@ import Client6 from "../../assets/image/portfolio/client-6.png";
 import Reviewer1 from "../../assets/image/portfolio/client-avatar-1.jpg";
 import Reviewer2 from "../../assets/image/portfolio/client-avatar-2.jpg";
 import Reviewer3 from "../../assets/image/portfolio/client-avatar-3.jpg";
+import Reviewer4 from "../../assets/image/portfolio/client-avatar-4.png";
+import Reviewer5 from "../../assets/image/portfolio/client-avatar-5.png";
+import Reviewer6 from "../../assets/image/portfolio/client-avatar-6.png";
 
 export const SOCIAL_PROFILES = [
   {
@@ -131,6 +135,14 @@ export const AWARDS = [
   {
     awardLogo: AwardImage7,
     awardName: "AWS Certified Solution Architect",
+    awardDetails: "ASSOCIATE",
+    awardeeLogo: Awardee4,
+    awardeeName: "UNIVERSITY OF LAGOS",
+    date: "APR 2023",
+  },
+  {
+    awardLogo: AwardImage8,
+    awardName: "AWS Certified developer associate",
     awardDetails: "ASSOCIATE",
     awardeeLogo: Awardee4,
     awardeeName: "UNIVERSITY OF LAGOS",
@@ -427,23 +439,17 @@ export const PROCESS_STEPS = [
 
 export const SERVICE_LIST = [
   {
-    title: "  Data Tools",
+    title: "  Tools/Libraries",
     listItems: [
       {
-        content: "Python",
+        content: "PySpark",
       },
       {
-        content: "Mongo DB",
+        content: "Airflow",
       },
 
       {
-        content: "Tableau",
-      },
-      {
-        content: "Excel",
-      },
-      {
-        content: "A/B test",
+        content: "Snowflake",
       },
       {
         content: "Numpy",
@@ -452,30 +458,87 @@ export const SERVICE_LIST = [
         content: "Pandas",
       },
       {
+        content: "Matplotlip",
+      },
+      {
         content: "Seaborn",
       },
       {
-        content: "Scikit-learn",
+        content: "Sckit-Learn",
       },
       {
-        content: "matplotlib",
+        content: "Tensorflow",
+      },
+      {
+        content: "Tableau",
+      },
+      {
+        content: "Power BI",
+      },
+      {
+        content: "MySQL",
+      },
+      {
+        content: "PostgreSQL",
+      },
+      {
+        content: "Selenium",
+      },
+      {
+        content: "Beautiful Soup",
+      },
+      {
+        content: "PyTorch",
+      },
+      {
+        content: "Keras etc",
       },
     ],
   },
-  // {
-  //   title: "Machine Learning",
-  //   listItems: [
-  //     {
-  //       content: "Tensorflow",
-  //     },
-  //     {
-  //       content: "Suprise",
-  //     },
-  //     {
-  //       content: "OOP",
-  //     },
-  //   ],
-  // },
+  {
+    title: "AWS Tools",
+    listItems: [
+      {
+        content: "Glue",
+      },
+      {
+        content: "Fargate",
+      },
+      {
+        content: "S3",
+      },
+      {
+        content: "EKS",
+      },
+      {
+        content: "Cloudwatch",
+      },
+      {
+        content: "EC2",
+      },
+      {
+        content: "API Gateway",
+      },
+      {
+        content: "DynamoDb",
+      },
+      {
+        content: "ECS",
+      },
+      {
+        content: "Lambda",
+      },
+      {
+        content: "Aurora",
+      },
+      {
+        content: "Quicksight",
+      },
+      {
+        content: "Sagemaker and many more",
+      },
+    ],
+  },
   {
     title: "Cloud Computing",
     listItems: [
@@ -585,8 +648,35 @@ export const TESTIMONIAL = [
   },
   {
     image: Reviewer3,
-    review: "Petroleum Geophysicist",
+    review: "Data Analyst",
     name: "Dharmattan Nigeria Limited",
+    // designation: "Co-Founder & COO",
+    twitterProfile: "https://twitter.com/redqinc",
+    // organization: "@Tonquin",
+    organizationURL: "https://redq.io/",
+  },
+  // {
+  //   image: Reviewer4,
+  //   review: "Data Analyst",
+  //   name: "",
+  //   // designation: "Co-Founder & COO",
+  //   twitterProfile: "https://twitter.com/redqinc",
+  //   // organization: "@Tonquin",
+  //   organizationURL: "https://redq.io/",
+  // },
+  {
+    image: Reviewer5,
+    review: "Data Analyst",
+    name: "Meridian Credit Union",
+    // designation: "Co-Founder & COO",
+    twitterProfile: "https://twitter.com/redqinc",
+    // organization: "@Tonquin",
+    organizationURL: "https://redq.io/",
+  },
+  {
+    image: Reviewer6,
+    review: "Data Analyst",
+    name: "Paystack",
     // designation: "Co-Founder & COO",
     twitterProfile: "https://twitter.com/redqinc",
     // organization: "@Tonquin",

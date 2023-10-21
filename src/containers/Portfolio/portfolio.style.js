@@ -27,6 +27,33 @@ export const GlobalStyle = createGlobalStyle`
 
   .containa{
     padding-right:1.5rem;
+    text-align: justify;
+    margin-bottom:10px;
+  }
+
+  .containax{
+    padding-right:1.5rem;
+    text-align: justify;
+    margin-bottom:-170px;
+  }
+
+  .social{
+    margin-top:200px;
+  }
+
+  .boximage{
+    margin-bottom:50px;
+  }
+
+  .containap{
+    padding-right:1.5rem;
+    text-align: center;
+    margin-bottom:10px;
+    
+  }
+
+  .hello{
+    margin-top:80px;
   }
 
   .contain{
@@ -35,6 +62,11 @@ export const GlobalStyle = createGlobalStyle`
 
   .contai{
     background-color:#030B16 !important;
+   }
+
+   .contax{
+    color: white !important;
+    width:1200px;
    }
 
    .conta{
@@ -83,6 +115,10 @@ export const GlobalStyle = createGlobalStyle`
   
   .classic {
     background-image: url("/classic.png")  !important;
+  }
+
+  .fyne{
+    fontSize:100px;
   }
 
   .classicp {

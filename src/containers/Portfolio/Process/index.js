@@ -85,11 +85,11 @@ const ProcessSection = ({
             />
             <Text
               {...learningDescription}
-              content="My skills in data analysis, cloud computing, and machine learning allow me to design and implement complex data solutions that meet the specific needs of businesses and organizations in a variety of industries. And with a commitment to ongoing learning and professional development, I am confident that I can continue to stay at the forefront of these rapidly-evolving fields and make a meaningful impact in the world of data analysis."
+              content="My skills in using data allow me to design and implement complex data solutions that meet the specific needs of businesses and organizations in several domains. With a commitment to ongoing learning and professional development, I am confident that I can continue to stay at the forefront of these rapidly evolving fields and make a meaningful impact in the world of data."
             />
             <Text
               {...learningDescription}
-              content="As a data analyst, I recognize the critical role that cloud computing and machine learning play in the data analysis process. My AWS certification and my knowledge of machine learning techniques and tools allow me to create powerful and effective data solutions."
+              content="As a data analyst, I recognize the critical role that cloud computing and machine learning play in the data analysis process. My AWS certifications and my knowledge of machine learning techniques and tools allow me to create powerful and effective data solutions."
             />
             <Box {...buttonWrapper}>
               {/* <Text content="" {...buttonLabelStyle} /> */}

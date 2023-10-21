@@ -29,10 +29,10 @@ const BannerSection = ({
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
           <Box {...contentArea}>
-            <Heading content="Hello, I’m" {...greetingStyle} />
-            <Heading content="Fyneface" {...nameStyle} />
+            <Heading  className="hello" content="Hello, I’m" {...greetingStyle} />
+            <Heading  content="Fyneface" {...nameStyle} />
             <Heading content="Ndubuisi" {...nameStyle} />
-            <Heading content="Data Analyst" {...designationStyle} />
+            <Heading content="Cloud/Data Guy" {...designationStyle} />
             <Box {...roleWrapper}>
               {/* <Icon
                 icon={cornerDownRight}
@@ -41,14 +41,37 @@ const BannerSection = ({
               /> */}
               {/* <Heading content="Intern at Reesby IT Australia" {...roleStyle} /> */}
             </Box>
-            <Text
-              className="containa"
-              content="Hi my name is Fyneface Ndubuisi, I work as a Data Analyst and Project Manager at Docsword Oil and Gas Ltd.As a data analyst and data scientist   (with great enthusiasm for cloud migration and deployments), I translate data into valuable and comprehensible insights. My goal is to improve results, make the right decisions and save costs for you. I am experienced in machine learning, supervised and unsupervised algorithms, and data visualization techniques to present the results. I use SQL, Excel, Python,  and Tableau for my data projects. I also have personal experience in using AWS cloud services for deploying static websites, cloud storage, security and migration. "
-              {...aboutStyle}
-            />
-            <SocialProfile items={SOCIAL_PROFILES} />
+            <div>
+
+ <Text className="containap" content="Hi, my name is Fyneface Ndubuisi but you can call me ND." {...aboutStyle} />
+
+ <Text
+    className="containa"
+    content="I am a Data Scientist with over 4 years of experience using data to find patterns and make predictions and sweet spots that will drive business growth or mitigate risk. My experience has stemmed from ETL, web scraping of data on various websites, exploratory data analysis, A/B test to model deployment and monitoring."
+    {...aboutStyle}
+  />
+   <Text
+    className="containa"
+    content="I have experience using data visualization tools, machine learning algorithms for supervised and unsupervised, NLP, time series analysis, deep learning, recommender systems and Network analysis while understanding the pros and cons of each approach used."
+    {...aboutStyle}
+  />
+   <Text
+    className="containa"
+    content="I use tools like SQL, Python, PowerBI, Tableau, and AWS resources for my data projects. I possess the soft skills needed to accomplish tasks/projects alone and as a team, which aids technical and non-technical stakeholders in making informed decisions."
+    {...aboutStyle}
+  />
+  <Text
+    className="containax"
+    content="I have the tenacity required to find solutions to problems which makes me stand out from my peers.
+    Currently, I am working on various projects while continuously developing the hard/soft skills needed to make the world a better place."
+    {...aboutStyle}
+  />
+</div>
+
+
+            <SocialProfile className="social" items={SOCIAL_PROFILES} />
           </Box>
-          <Box {...imageArea} className="image_area">
+          <Box  {...imageArea} className="boximage image_area">
             <NextImage src={PersonImage} alt="Mat Helme" />
           </Box>
         </Box>

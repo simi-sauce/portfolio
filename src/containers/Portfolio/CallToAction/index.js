@@ -22,13 +22,14 @@ const CallToAction = ({
     <Box className="con" {...sectionWrapper} as="section">
       <Container noGutter mobileGutter width="1200px">
         <CallToActionWrapper>
-          <Box {...textArea}>
-            <Heading content="What’s in the lab?" {...title} />
-            <Text
-              content="Take a look at my Resume to see how my Applied Data Science skills can benefit you. Explore my expertise in statistical inference, data wrangling, machine learning, and data visualization, as a skilled data analyst, cloud engineer, and machine learning expert."
-              {...description}
-            />
-          </Box>
+        <Box {...textArea}>
+  <Heading content="Request My Resume" {...title} />
+  <Text
+    content="Feel free to get in touch via email to request my comprehensive resume. Discover how my Applied Data Science skills can bring value to your team. Learn about my expertise in statistical inference, data wrangling, machine learning, and data visualization, as a proficient data analyst, cloud engineer, and machine learning expert."
+    {...description}
+  />
+</Box>
+
           <Box {...buttonArea}>
             <ButtonWrapper>
               {/* <Button
@@ -36,13 +37,14 @@ const CallToAction = ({
                 className="portfolio_button"
                 {...buttonStyle}
               /> */}
-              <Link href="./cv.pdf" download>
-                <Button
-                  title="DOWNLOAD RESUME"
-                  className="portfolio_button"
-                  {...buttonStyle}
-                />
-              </Link>
+              <a href="mailto:ndfyne22@gmail.com?subject=Request%20for%20Resume&body=Can%20I%20have%20a%20look%20at%20your%20resume%3F">
+  <Button
+    title="REQUEST RESUME"
+    className="portfolio_button"
+    {...buttonStyle}
+  />
+</a>
+
             </ButtonWrapper>
           </Box>
         </CallToActionWrapper>

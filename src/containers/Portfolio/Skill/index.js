@@ -46,6 +46,11 @@ const SkillSection = ({
             {...secDescription}
             content="Let me help you turn your data into actionable insights through data cleaning, analysis, visualization, and reporting. here are some of my core strenght"
           />
+          <Text
+            className="contax"
+            {...secDescription}
+            content="Report writing, Data ETL, Statistical Analysis, Market Basket Analysis, Consumer Insights, Data visualization, Machine Learning, Model Deployment and Monitoring, Serverless Deployment, CICD and many more."
+          />
         </Box>
 
         <Box {...row}>

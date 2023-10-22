@@ -51,25 +51,26 @@ const BannerSection = ({
     {...aboutStyle}
   />
    <Text
-    className="containa"
+    className="containav"
     content="I have experience using data visualization tools, machine learning algorithms for supervised and unsupervised, NLP, time series analysis, deep learning, recommender systems and Network analysis while understanding the pros and cons of each approach used."
     {...aboutStyle}
   />
    <Text
-    className="containa"
-    content="I use tools like SQL, Python, PowerBI, Tableau, and AWS resources for my data projects. I possess the soft skills needed to accomplish tasks/projects alone and as a team, which aids technical and non-technical stakeholders in making informed decisions."
+    className="containav"
+    content="I use tools like SQL, Python, PowerBI, Tableau, and AWS resources for my data projects. I possess the soft skills needed to accomplish tasks/projects alone and as a team, which aids technical and non-technical stakeholders in making informed decisions.I have the tenacity required to find solutions to problems which makes me stand out from my peers.
+    Currently, I am working on various projects while continuously developing the hard/soft skills needed to make the world a better place."
     {...aboutStyle}
   />
-  <Text
+  {/* <Text
     className="containax"
     content="I have the tenacity required to find solutions to problems which makes me stand out from my peers.
     Currently, I am working on various projects while continuously developing the hard/soft skills needed to make the world a better place."
     {...aboutStyle}
-  />
+  /> */}
 </div>
 
 
-            <SocialProfile className="social" items={SOCIAL_PROFILES} />
+            {/* <SocialProfile className="social" items={SOCIAL_PROFILES} /> */}
           </Box>
           <Box  {...imageArea} className="boximage image_area">
             <NextImage src={PersonImage} alt="Mat Helme" />

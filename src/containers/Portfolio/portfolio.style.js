@@ -28,18 +28,23 @@ export const GlobalStyle = createGlobalStyle`
   .containa{
     padding-right:1.5rem;
     text-align: justify;
-    margin-bottom:8px;
+    margin-top:10px;
   }
+
+  .containav{
+    padding-right:1.5rem;
+    text-align: justify;
+    margin-top:-35px;
+  }
+
+
 
   .containax{
     padding-right:1.5rem;
     text-align: justify;
-    margin-bottom:-170px;
   }
 
-  .social{
-    margin-top:200px;
-  }
+ 
 
   .boximage{
     margin-bottom:50px;
@@ -48,7 +53,7 @@ export const GlobalStyle = createGlobalStyle`
   .containap{
     padding-right:1.5rem;
     text-align: center;
-    margin-bottom:10px;
+    margin-bottom:-4px;
   }
 
   .hello{
@@ -80,6 +85,7 @@ export const GlobalStyle = createGlobalStyle`
     padding:2rem;
    }
 
+ 
   .trial {
     display: flex;
     justify-content: center;

@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
   .containa{
     padding-right:1.5rem;
     text-align: justify;
-    margin-bottom:10px;
+    margin-bottom:8px;
   }
 
   .containax{
@@ -49,7 +49,6 @@ export const GlobalStyle = createGlobalStyle`
     padding-right:1.5rem;
     text-align: center;
     margin-bottom:10px;
-    
   }
 
   .hello{

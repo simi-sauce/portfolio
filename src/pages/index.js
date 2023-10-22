@@ -56,7 +56,7 @@ const Portfolio = () => {
           <SkillSection />
           <CallToAction />
           <TestimonialSection />
-          <ClientsSection />
+          {/* <ClientsSection /> */}
           {/* <Team /> */}
           <Footer />
         </ContentWrapper>
